@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.oratorio" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Oratorio</name>
+    <description>Oraciones para el encuentro con Dios nuestro Padre.</description>
+    <author email="chejidev@gmail.com" href="https://chejidev.com">
+        Chejidev
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <platform name="android">
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/splash.png" />
+    </platform>
+
+    <icon density="ldpi" width="36" platform="android" src="res/App_Icons/android-icon-36x36.png" />
+    <icon density="ldpi" width="48" platform="android" src="res/App_Icons/android-icon-48x48.png" />
+    <icon density="ldpi" width="72" platform="android" src="res/App_Icons/android-icon-72x72.png" />
+    <icon density="ldpi" width="96" platform="android" src="res/App_Icons/android-icon-96x96.png" />
+    <icon density="ldpi" width="144" platform="android" src="res/App_Icons/android-icon-144x144.png" />
+    <icon density="ldpi" width="192" platform="android" src="res/App_Icons/android-icon-192x192.png" />
+</widget>

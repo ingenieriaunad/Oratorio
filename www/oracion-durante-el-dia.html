@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap5.min.css" rel="stylesheet" >
+    <link href="css/animate.min.css" rel="stylesheet" >
+    <link href="img/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" >
+    <link href="css/sweetalert2.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet" >
+    <title>Oración del día</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 py-2 border-bottom shadow-sm" id="Menu">
+                <div class="row">
+                    <div class="col-2 text-start" id="goBack">
+                        <a>
+                            <i class="bi bi-arrow-left"></i>
+                        </a>
+                    </div>
+                    <div class="col-8 px-1 text-dark-primary text-center ">
+                        <strong>Oración para el dia</strong>
+                    </div>
+                    <div class="col-2 text-end">
+                        <img src="img/logo.png" alt="logo" width="25">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row px-1"  id="rosary">
+            <div class="col-12">
+                <h1 class="text-center py-2 text-dark-primary" id="title"></h1>
+            </div>
+            <div class="col-12 px-3 justify-content-center">
+                <small class="text-center py-2 text-dark-primary" id="subtitle"></small>
+                <p id="prayBody"></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap5.min.js"></script>
+    <script src="js/sweetalert2.js"></script>
+    <script src="js/menssage.js"></script>
+    <script src="js/hooks/useDate.js"></script>
+    <script src="js/hooks/useRosary.js"></script>       
+    <script src="js/data.js"></script>
+    <script src="js/oracion-durante-el-dia.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

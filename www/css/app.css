@@ -1,0 +1,160 @@
+.text-dark-primary {
+    color: #1d3b77 !important;
+}
+.mt-n1 {
+    margin-top: -0.25rem !important;
+}
+.mt-n2 {
+    margin-top: -0.5rem !important;
+}
+.mt-n3 {
+    margin-top: -1rem !important;
+}
+.mt-n4 {
+    margin-top: -1.5rem !important;
+}
+.mt-n5 {
+    margin-top: -3rem !important;
+}
+.ms-n1 {
+    margin-left: -0.25rem !important;
+}
+.ms-n2 {
+    margin-left: -0.5rem !important;
+}
+.ms-n3 {
+    margin-left: -1rem !important;
+}
+.ms-n4 {
+    margin-left: -1.5rem !important;
+}
+.ms-n5 {
+    margin-left: -3rem !important;
+}
+.w-25{
+    width: 25% !important;
+}
+.font-11{
+    font-size: 11px !important;
+}
+.font-16{
+    font-size: 16px !important;
+}
+.bg-myLord{
+    background-image: url(../img/bg_movil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bg-virgin {
+    position: relative;
+}
+  
+.bg-virgin::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../img/bg_maria.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: top right;
+    opacity: 0.4; 
+}
+.bg-dark-primary{
+    background-color: #1d3b77 !important;
+}
+.bg-dark-primary-medium{
+    background-color: #0076a8 !important;
+}
+/* movil */
+@media (max-width: 767.98px) {
+    .w-sm-85{
+        width: 85% !important;
+    }
+    .w-sm-75{
+        width: 75% !important;
+    }
+    .w-sm-50{
+        width: 50% !important;
+    }
+    .w-sm-35{
+        width: 35% !important;
+    }
+    .w-sm-25{
+        width: 25% !important;
+    }
+    .w-sm-50px{
+        width: 50px !important;
+    }
+    .w-sm-30px{
+        width: 30px !important;
+    }
+}
+/* tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .w-md-85{
+        width: 85% !important;
+    }
+    .w-md-75{
+        width: 75% !important;
+    }
+    .w-md-50{
+        width: 50% !important;
+    }
+    .w-md-25{
+        width: 25% !important;
+    }
+    .w-md-50px{
+        width: 50px !important;
+    }
+    .w-md-25px{
+        width: 25px !important;
+    }
+}
+/* desktop */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .w-lg-85{
+        width: 85% !important;
+    }
+    .w-lg-75{
+        width: 75% !important;
+    }
+    .w-lg-65{
+        width: 65% !important;
+    }
+    .w-lg-50{
+        width: 50% !important;
+    }
+    .w-lg-50px{
+        width: 50px !important;
+    }
+    .w-lg-25{
+        width: 25% !important;
+    }
+}
+/* large desktop */
+@media (min-width: 1200px) {
+    .w-xl-85{
+        width: 85% !important;
+    }
+    .w-xl-75{
+        width: 75% !important;
+    }
+    .w-xl-65{
+        width: 65% !important;
+    }
+    .w-xl-50{
+        width: 50% !important;
+    }
+    .w-xl-25{
+        width: 25% !important;
+    }
+    .w-xl-50px{
+        width: 50px !important;
+    }
+}
+
